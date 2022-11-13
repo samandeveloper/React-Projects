@@ -2,15 +2,12 @@ import React from 'react';
 import data from './data';
 import List from './List';
 
-
 function App() {
   const [val , setVal] = React.useState(data)
   const handleClick = () =>{
     setVal([])
-   
   }
 
-  //map through the data--we can write the map here instead of the list--instead of data.map we must say val.map 
   const dataList = val.map(item => {
     return (
       //key must be imported directly in the component
@@ -22,7 +19,6 @@ function App() {
       <section className='container'>
         <h3>{val.length} birthday today</h3>
         <div>{dataList}</div>
-       
         <button onClick={handleClick}>Clear All</button>
       </section>
     </main>
