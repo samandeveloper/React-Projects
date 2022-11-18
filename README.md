@@ -1,1 +1,1 @@
-24 projects are uploaded in javascript-projects folder
+# 24 projects are uploaded in javascript-projects folder
