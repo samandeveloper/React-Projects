@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+    background: #23252C;
+}
+.total{
+    /* position: absolute; */
+    width: 317px;
+    height: 799px;
+    left: 116px;
+    top: 361px;
+
+    background: #1A1B21;
+}
+.image{
+    /* position: absolute; */
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.name{
+    position: fixed;
+    width: 178.06px;
+    height: 25.81px;
+    left: 140px;
+    top: 382px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+ 
+    
+    color: #FFFFFF;
+   
+}
+.title{
+    position: fixed;
+    width: 178.06px;
+    height: 14.19px;
+    left: 140px;
+    top: 419px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+.website{
+    position: fixed;
+    width: 228px;
+    height: 16px;
+    left: 115px;
+    top: 443px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+.emailButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+
+    position: fixed;
+    width: 115px;
+    height: 34px;
+    left: 102px;
+    top: 500px;
+    
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.linkedinButton{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+
+    position: fixed;
+    width: 115px;
+    height: 34px;
+    left: 235px;
+    top: 500px;
+    color: white;
+    background: #5093E2;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.main1{
+    position: fixed;
+    width: 247px;
+    height: 201px;
+    left: 102px;
+    top: 535px;
+    color: white;
+    word-spacing: 2px;
+
+}
+.main2{
+    position: fixed;
+    width: 247px;
+    height: 201px;
+    left: 102px;
+    top: 710px;
+    color: white;
+    word-spacing: 2px;
+}
+.footer{
+    /* position: absolute; */
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 900px;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+.twitterIcon{
+    /* position: absolute; */
+    /* left: 34.36%;
+    right: 61.09%;
+   
+    top: 89.75%;
+    bottom: 7.37%; */
+    
+    /* background: #918E9B;   */
+    padding: 15px 10px;
+}
+.facebookIcon{
+    /* position: absolute; */
+    /* left: 43.27%;
+    right: 52.18%;
+    top: 89.75%;
+    bottom: 7.37%; */
+    
+    /* background: #918E9B;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    padding: 7px 10px;
+}
+.instagramIcon{
+    /* position: absolute; */
+    /* left: 52.18%;
+    right: 43.27%;
+    top: 89.75%;
+    bottom: 7.37%; */
+
+    /* background: #918E9B; */
+    padding: 15px 10px;
+}
+.githubIcon{
+    /* position: absolute; */
+    /* left: 61%;
+    right: 34.45%;
+    top: 89.8%;
+    bottom: 7.32%; */
+    
+
+    /* background: #918E9B; */
+    padding: 15px 10px;
+}
+
