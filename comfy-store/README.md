@@ -1,5 +1,5 @@
 ## Comfy-Store Application:
 #### 1. The app is written in React library
-## To test the Stripe payment, the user needs to login 
-## Auth0 used for login and authentication 
-## connected to Stripe (You can test the Stripe payment and check it in your Stripe account. This is just a test Stripe payment, not a real one)
+#### 2. To test the Stripe payment, the user needs to login 
+#### 3. Auth0 used for login and authentication 
+#### 4. The app is connected to Stripe (You can test the Stripe payment and check it in your Stripe account. This is just a test Stripe payment, not a real one)
