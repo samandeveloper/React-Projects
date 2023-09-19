@@ -1,13 +1,13 @@
 import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
-const Hero = () => {
+const Hero = ({ toggle }) => {
   return (
-    <div className="bg-gray-300 py-24">
-      <div className="align-element grid md:grid-cols-2 items-center gap-8">
+    <div className={`py-24 ${toggle ? "bg-black" : "bg-gray-300"}`}>
+      <div className=" align-element grid md:grid-cols-2 items-center gap-8">
         {/* first column- heading + text + social media icons */}
         <article>
-          <h1 className="text-7xl font-bold tracking-wider">
+          <h1 className="text-slate-700 text-7xl font-bold tracking-wider">
             I'm <span className="text-emerald-600">Saman</span>
           </h1>
           {/* text-slate-700 is the text of the color */}
