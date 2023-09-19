@@ -5,12 +5,12 @@ import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
   return (
-    <section className="py-20 align-element" id="projects">
+    <section className="text-slate-700 py-20 align-element" id="projects">
       <SectionTitle text="Featured Projects" />
       {/* Note: in the Projects.jsx, we have a grid in the small screen then in the large screen we have 2 columns and in the extra large screen we want to have 3 columns. Als0, gap-8 means add the gap for the columns and the rows.  */}
-      <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+      <div className="text-slate-700 py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
         {projects.map((project) => {
-          return <ProjectCard key={project.id} {...project} />; 
+          return <ProjectCard key={project.id} {...project} />;
         })}
       </div>
       {/* button */}
@@ -22,7 +22,6 @@ const Projects = () => {
           See All Project
         </a>
       </div>
-      ;
     </section>
   );
 };
