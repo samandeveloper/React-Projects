@@ -1,3 +1,3 @@
-## Quiz app:
+## Tic-Tac-Toe Game:
 #### Please see the deployment of this project here: https://tic-tac-toe-game-react.netlify.app/
-#### The app is written in React
+#### This game is written in React
