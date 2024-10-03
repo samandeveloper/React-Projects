@@ -7,3 +7,4 @@
 
 <img width="959" alt="Jobster-2" src="https://github.com/user-attachments/assets/58dae8c9-1c86-4ae1-a89b-e61f18711f55">
 
+<img width="697" alt="jobster-react-update" src="https://github.com/user-attachments/assets/b58337a7-a692-48fa-806f-952626652068">
