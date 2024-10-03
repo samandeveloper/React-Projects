@@ -5,4 +5,5 @@
 #### 3. Database is written with MongoDB
 #### 4. JSON Web Token (JWT) is used for authentication
 
-<img width="227" alt="Jobsterpng" src="https://github.com/user-attachments/assets/3dfb3ef1-147e-4d05-859a-561493f9523a">
+<img width="959" alt="Jobster-2" src="https://github.com/user-attachments/assets/58dae8c9-1c86-4ae1-a89b-e61f18711f55">
+
